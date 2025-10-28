@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C490791-3816-601A-8E9A-32D2CD97ACFE" name="Destination">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:18:28 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DestinationID" id="96F53813-3FCF-1564-8A3B-9C6E7E4D83EF">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:18:43 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="21C09231-A605-3976-9DF9-F93723B884FF">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:19:06 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Country" id="D281E5FD-B4A6-F644-08C8-55807FF30B61">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:19:27 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SpecialAirportCode" id="ACF0AE0D-ECF7-FC7B-E013-5A5F31C46633">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:19:45 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Distance" id="E39ED496-BB96-B3E9-4393-E8D5D1544622">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:20:13 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TravelTime" id="2AA0B9EC-5CDE-6513-DA3A-A1F7CE6F0C82">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:20:30 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D79B381E-51BD-824B-B81E-8E919E4317B7" name="Destination PK">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:18:51 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>96F53813-3FCF-1564-8A3B-9C6E7E4D83EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EC85BDC-DF56-233C-B4A1-579A2DE57FAC" name="Student">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 20:07:34 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="StudentID" id="199E316A-0859-D9F5-B500-BB5CB6FC346D">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 20:07:42 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="CB24F07D-31FD-37C5-BEDE-0F25DC4F4972">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 20:08:23 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="01F95D82-0560-2713-0FE9-DDA52FE0B31F">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 20:08:33 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grade" id="0550CB60-82F5-9EB1-19E0-0DC85243814B">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 20:08:51 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HomeRoomTeacher" id="34DAD448-C942-4A38-B3B2-B3228A3E0426">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 20:09:02 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C6B6519-1A74-E953-9447-38406B26992A" name="Student PK">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 20:08:22 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>199E316A-0859-D9F5-B500-BB5CB6FC346D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

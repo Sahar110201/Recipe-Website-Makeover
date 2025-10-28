@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C600D7BF-5E5C-02DE-041B-730A84ED7BCA" name="Child">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:44:12 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ChildID" id="11B39AED-9DBC-5753-DB27-40679A34AE1A">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:45:00 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DateOfBirth" id="402600BA-0549-B661-3828-7EF6348AEC4D">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:45:26 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PlaceOfBirth" id="B12631C9-DBDA-16D1-AB33-4847020C0F60">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:45:39 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TimeOfBirth" id="1FA3183B-8F8F-473C-B388-5F12B1CB5B66">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:45:55 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="78213F76-28B5-707C-9747-3EA2F6AEA0A1">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:48:45 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="73B8D640-8AE5-ED2B-6CB4-E6213D6CFE98">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:48:52 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MotherID" id="E512AF25-7C6C-DEEB-ACC8-73FC538D8B6F">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:49:34 UTC</createdTime>
+<generatorID>31C2FB0D-CCAC-E8EF-FC05-84FD131EE329</generatorID>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<referedAttribute>B00ABB0A-C21E-A0DD-F363-F061C6A5EF92</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44F1A9D1-084F-5FD9-5DFB-86ECCB1ED794" name="Child PK">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:45:13 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>11B39AED-9DBC-5753-DB27-40679A34AE1A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

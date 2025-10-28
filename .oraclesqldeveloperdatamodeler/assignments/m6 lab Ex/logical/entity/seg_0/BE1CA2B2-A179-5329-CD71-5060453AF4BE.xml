@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE1CA2B2-A179-5329-CD71-5060453AF4BE" name="Automobile">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:31:39 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="01DA9F6E-72AC-F684-43A6-87453A4E385A">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:33:44 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Model" id="BD7990CA-92E1-EBC3-EE36-B4EDCCCC7EDD">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:34:03 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Year" id="B83FEB1A-C64D-09C5-A975-9198FF557715">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:34:22 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TireSizeID" id="BC5CDE2D-EFBF-A7BD-AF44-3ABC0FB844A2">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:37:43 UTC</createdTime>
+<generatorID>7309A9C0-8423-4C13-C04A-CAFA5BDE4B97</generatorID>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<referedAttribute>A683ADE8-9DDC-4B46-0A0A-C9DAFDF61854</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C26CBFA-2BD6-D645-49AB-A27A1384360A" name="Automobile PK">
+<createdBy>saharadeebschool</createdBy>
+<createdTime>2025-10-28 19:33:48 UTC</createdTime>
+<ownerDesignName>m6 lab Ex</ownerDesignName>
+<engineerTo>
+<item key="A3F9926A-9036-891C-3294-94F8CEB9B760" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>01DA9F6E-72AC-F684-43A6-87453A4E385A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
